@@ -65,7 +65,13 @@ article {
 		margin-bottom:50px;
 	}
 
-
+div.image_display {
+	        display: flex;
+					align-content: center;
+	        flex-flow: row;
+					width: 75%;
+					height: auto;
+	    }
 
 img {
 	  float: left;
