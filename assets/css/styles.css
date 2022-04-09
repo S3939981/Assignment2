@@ -62,13 +62,42 @@ article {
 	  padding: 30px;
 	  width: 60%;
 	  background-color: #605568;
+		margin-bottom:50px;
 	}
+
+
+
 img {
 	  float: left;
 	  width: 40%;
 	  background: #eef1ea;
 	  padding: 10px;
 	}
+
+table, th, td {
+	border-bottom:1px solid white;
+	border-collapse:collapse;
+	width:100%;
+	text-align:center;
+	table-layout:fixed;
+
+	}
+th:first-child+th{
+	Width:20%;
+}
+
+
+tr:nth-child(odd){
+			background-color:#696969
+	}
+}
+
+}
+
+th,td{
+	background-color:#3f3844;
+	padding:15px;
+}
 
 /*Navigation Bar*/
 
