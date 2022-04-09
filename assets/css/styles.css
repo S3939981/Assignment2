@@ -65,6 +65,15 @@ article {
 		margin-bottom:50px;
 	}
 
+aside {
+	float: right;
+	padding: 30px;
+	width: 35%;
+	background-color: #696969;
+	margin-bottom:50px;
+	margin-right:50px;
+}
+
 div.image_display {
 	        display: flex;
 					align-content: center;
@@ -72,6 +81,20 @@ div.image_display {
 					width: 75%;
 					height: auto;
 	    }
+
+div.image_display_wide {
+		        display: flex;
+						align-content: center;
+		        flex-flow: row;
+						height: auto;
+				    }
+
+div.industry_align {
+				        display: flex;
+								align-content: center;
+				        flex-flow: row;
+								height: auto;
+				    }
 
 img {
 	  float: left;
@@ -87,19 +110,16 @@ table, th, td {
 	width:100%;
 	text-align:center;
 	table-layout:fixed;
-
 	}
+
 th:first-child+th{
 	Width:20%;
 }
 
-
 tr:nth-child(odd){
 			background-color:#696969
 	}
-}
 
-}
 
 th,td{
 	background-color:#3f3844;
