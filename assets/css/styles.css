@@ -96,6 +96,20 @@ div.industry_align {
 								height: auto;
 				    }
 
+.industry_art{
+							float: left;
+							width: 60%;
+							background-color: #3f3844;
+							margin-bottom:50px;
+						}
+
+.industry_as{
+							float: right;
+							width: 40%;
+							background-color: transparent;
+							margin-bottom:50px;
+						}
+
 img {
 	  float: left;
 	  width: 40%;
@@ -104,27 +118,48 @@ img {
 		margin:10px;
 	}
 
+	table {
+		  float: left;
+		  background: #eef1ea;
+		  padding: 10px;
+			margin:10px;
+		}
+
 table, th, td {
-	border-bottom:1px solid white;
-	border-collapse:collapse;
 	width:100%;
+	border-bottom:1px solid black;
+	border-collapse:collapse;
+	table-layout: fixed;
 	text-align:center;
 	table-layout:fixed;
+	font-size:70%;
+	color:black
 	}
 
-th:first-child+th{
-	Width:20%;
-}
-
-tr:nth-child(odd){
-			background-color:#696969
+	th:first-child{
+		Width:20%;
 	}
 
+	th:last-child{
+		width:40%
+	}
 
-th,td{
-	background-color:#3f3844;
-	padding:15px;
-}
+	th{
+	background-color:#0C7A14;
+	padding:15px
+	}
+
+tr:hover {
+	background-color: #878e83;
+	}
+
+	tr:nth-child(odd){
+			background-color:#ddd;
+	}
+
+	td{
+		padding:15px;
+	}
 
 /*Navigation Bar*/
 
