@@ -1,4 +1,4 @@
-html, body, div, h1, h2, h3, p, img, {
+html, body, div, h1, h2, h3, p, {
 
 	font-size: 100%;
 	width: 200px;
@@ -8,7 +8,7 @@ html, body, div, h1, h2, h3, p, img, {
 body {
 	margin-top: 3%;
 	margin-bottom: 3%;
-	margin-right: 3%;
+	margin-right: 10%;
 	margin-left: 10%;
 	padding: 15px;
 	line-height: 1.25;
@@ -58,9 +58,9 @@ p {
 	}
 
 article {
-	  float: left;
+	  float: center;
 	  padding: 30px;
-	  width: 60%;
+	  width: 100%;
 	  background-color: #605568;
 		margin-bottom:50px;
 	}
@@ -76,9 +76,9 @@ aside {
 
 div.image_display {
 	        display: flex;
-					align-content: center;
+					align-content: left;
 	        flex-flow: row;
-					width: 75%;
+					width: 105%;
 					height: auto;
 	    }
 
@@ -112,7 +112,8 @@ div.industry_align {
 
 img {
 	  float: left;
-	  width: 40%;
+	  width: 30%;
+		height: auto;
 	  background: #eef1ea;
 	  padding: 10px;
 		margin:10px;
@@ -174,9 +175,9 @@ tr:hover {
 	  display: block;
 	  color: #FFFFFF;
 	  text-align: center;
-	  padding: 14px 16px;
+	  padding: 20px;
 	  text-decoration: none;
-	  font-size: 17px;
+	  font-size: 18px;
 	}
 
 	.navBar a:hover {
