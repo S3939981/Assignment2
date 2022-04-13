@@ -67,8 +67,8 @@ article {
 
 aside {
 	float: right;
-	padding: 30px;
-	width: 35%;
+
+	width: 40%;
 	background-color: #696969;
 	margin-bottom:50px;
 	margin-right:50px;
@@ -95,20 +95,9 @@ div.industry_align {
 				        flex-flow: row;
 								height: auto;
 				    }
-
-.industry_art{
-							float: left;
-							width: 60%;
-							background-color: #3f3844;
-							margin-bottom:50px;
-						}
-
-.industry_as{
-							float: right;
-							width: 40%;
-							background-color: transparent;
-							margin-bottom:50px;
-						}
+.clear{
+		clear:both;
+	}
 
 img {
 	  float: left;
@@ -121,13 +110,14 @@ img {
 
 	table {
 		  float: left;
+			width:40%;
 		  background: #eef1ea;
 		  padding: 10px;
 			margin:10px;
+			border:10px solid #ddd
 		}
 
 table, th, td {
-	width:100%;
 	border-bottom:1px solid black;
 	border-collapse:collapse;
 	table-layout: fixed;
@@ -159,7 +149,7 @@ tr:hover {
 	}
 
 	td{
-		padding:15px;
+		padding:10px;
 	}
 
 /*Navigation Bar*/
