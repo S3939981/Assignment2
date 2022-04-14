@@ -99,6 +99,10 @@ div.industry_align {
 		clear:both;
 	}
 
+.wide_table{
+	width:100%
+}
+
 img {
 	  float: left;
 	  width: 30%;
@@ -114,7 +118,8 @@ img {
 		  background: #eef1ea;
 		  padding: 10px;
 			margin:10px;
-			border:10px solid #ddd
+			border:10px solid #ddd;
+			caption-side:bottom;
 		}
 
 table, th, td {
@@ -124,16 +129,11 @@ table, th, td {
 	text-align:center;
 	table-layout:fixed;
 	font-size:70%;
-	color:black
+	color:black;
+	overflow-x:hidden;
 	}
 
-	th:first-child{
-		Width:20%;
-	}
 
-	th:last-child{
-		width:40%
-	}
 
 	th{
 	background-color:#0C7A14;
