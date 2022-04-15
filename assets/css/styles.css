@@ -89,14 +89,13 @@ div.image_display_wide {
 		        flex-flow: row;
 						height: auto;
 				    }
+					.clear{
+							clear:both;
+						}
 
-.clear{
-		clear:both;
-	}
-
-.wide_table{
-	width:100%
-}
+					.wide_table{
+						width:100%
+					}
 
 img {
 	  float: left;
@@ -106,8 +105,21 @@ img {
 	  padding: 10px;
 		margin:10px;
 	}
-
-	table {
+.right{
+width: 50%;
+float: right;
+padding: 5px;
+margin: 25px;
+margin-top: 7.5%;
+}
+.left{
+width: 50%;
+float: left;
+padding: 5px;
+margin: 25px;
+margin-top: 4%;
+}
+table {
 		  float: left;
 			width:40%;
 		  background: #eef1ea;
