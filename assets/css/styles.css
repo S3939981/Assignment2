@@ -83,6 +83,10 @@ div.image_display {
     z-index:999;
 }
 
+.personality_table{
+		width:70%
+}
+
 div.image_display_wide {
 		        display: flex;
 						align-content: center;
