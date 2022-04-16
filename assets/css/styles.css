@@ -72,6 +72,10 @@ div.image_display {
 					width: 105%;
 					height: auto;
 	    }
+.thumbnail{
+	width:17%;
+	height:auto;
+}
 
 .thumbnail:hover {
     position:relative;
